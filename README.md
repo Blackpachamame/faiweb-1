@@ -1,6 +1,6 @@
 # Faiweb 1.0 - Trabajo Práctico Final de PEyLW (2020)
 
-Esta página fue creada para el trabajo final de Programación Estática y Laboratorio Web. Dicho trabajo consistía en elaborar un sitio web estático utilizando el conocimiento aprendido durante la cursada del año 2020.
+Esta página fue creada para el trabajo final de Programación Estática y Laboratorio Web. Dicho trabajo consistía en elaborar un sitio web estático utilizando el conocimiento aprendidos durante la cursada del año 2020 (HTML, CSS y JavaScript).
 
 ## Tabla de contenido
 
