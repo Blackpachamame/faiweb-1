@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Alumnos</title>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="css/estilos.css" />
+    <link type="text/css" rel="stylesheet" href="css/icons.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="imagen/favicon.ico" rel="icon" type="image/vnd.microsoft.icon" />
+    <script src="funciones.js"></script>
+</head>
+
+<body>
+    <header id="tish">
+        <div class="barra-gris">
+            <div class="wrapper">
+
+                <!-- Primer nav -->
+                <div id="searchform">
+                    <input type="search" name="search" id="search" placeholder="Buscar" />
+                    <button type="submit"><i class="icon-search"></i></button>
+                </div>
+
+                <ul class="social">
+                    <li><a href="https://twitter.com/faiuncoma" class="icon-twitter" target="_blank"> </a></li>
+                    <li><a href="mailto:inesreutemann@fi.uncoma.edu.ar" class="icon-envelop" target="_blank"> </a></li>
+                    <li><a href="https://www.facebook.com/FAI-Facultad-de-Inform%C3%A1tica-UNCo-185003921537235"
+                            class="icon-facebook" target="_blank"> </a></li>
+                    <li><a href="https://t.me/fi_unco" class="icon-telegram" target="_blank"> </a></li>
+                </ul>
+
+                <nav class="menu-side">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+
+        <!-- Segundo nav -->
+        <div id="paris" class="wrapper">
+            <div id="sanji">
+                <a href="index.html"><img class="logoFAI" src="imagen/logoFai.png" alt="Logo"></a>
+                <h1 class="titulo">Facultad de Informática</h1>
+                <h3 class="subtitulo">Universidad Nacional del Comahue</h3>
+            </div>
+
+            <nav id="main-menu">
+                <ul>
+                    <li><a href="academia.html">Académia</a>
+                        <ul>
+                            <li><a href="ingresantes.html">Ingresantes</a></li>
+                            <li><a href="alumnos.html">Alumnos</a></li>
+                            <li><a href="carreras.html">Carreras</a></li>
+                            <li><a href="docentes.html">Docentes</a></li>
+                            <li><a href="tutorias.html">Tutorias</a></li>
+                            <li><a href="posgrado.html">Posgrado</a></li>
+                            <li><a href="investigacion.html">Investigación</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="novedades.html">Novedades</a>
+                        <ul>
+                            <li><a href="concursos_docentes.html">Concursos Docentes</a></li>
+                            <li><a href="nuevos_licenciados.html">Nuevos Licenciados</a></li>
+                            <li><a href="colaciones_de_grado.html">Colaciones de Grado</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="institucional.html">Institucional</a>
+                        <ul>
+                            <li><a href="autoridades.html">Autoridades</a></li>
+                            <li><a href="staff.html">Staff</a></li>
+                            <li><a href="acceso_a_despacho.html">Acceso a Despacho</a></li>
+                            <li><a href="eventos_fai.html">Eventos FAI</a></li>
+                            <li><a href="departamentos.html">Departamentos</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="extension.html">Extensión</a>
+                        <ul>
+                            <li><a href="proyectos.html">Proyectos</a></li>
+                            <li><a href="convenios.html">Convenios</a></li>
+                            <li><a href="pasantias.html">Pasantías</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main id="milo" class="wrapper">
+        <div class="galo">
+            <div style='cursor: pointer;' class='top' onClick="muestra_oculta('contenido-1')">
+                <h1>Información general para alumnos</h1>
+            </div>
+        </div>
+        <!-- Contenido 1 -->
+        <div id="contenido-1">
+            <!-- Departamento de Alumnos -->
+            <div class="con-contenido">
+                <h2>Departamento de Alumnos</h2>
+                <ul>
+                    <li>Ubicación: Ventanilla en el hall del Aulario Común (edificio frente a Biblioteca).</li>
+                    <li>Horario de atención: de lunes a viernes de 10 a 19 hs.</li>
+                    <li>Teléfono: 0299-4490300 int 433.</li>
+                    <li>Email: <a href="mailto:dpto.alumnos@fi.uncoma.edu.ar"
+                            target="_blank">dpto.alumnos@fi.uncoma.edu.ar</a></li>
+                </ul>
+            </div>
+            <!-- Fin Departamento de Alumnos -->
+            <!-- Calendario Académico -->
+            <div class="con-contenido">
+                <h2>Calendario Académico</h2>
+                <ul>
+                    <li>Calendario Académico 2019 [<a
+                            href="/images/institucional/calendario/CalendarioAcademico2019-ResCD120-18.pdf"
+                            title="Calendario AcadAcademico actual">pdf</a>]</li>
+                    <li>Años anteriores: [<a
+                            href="/images/institucional/calendario/Calendario-Academico2018_ResCD081-17.pdf"
+                            title="Calendario Academico 2018">2018</a>] [<a
+                            href="/images/institucional/calendario/CalendarioAcademico2017-ResCD098_copia.pdf"
+                            title="Calendario Academico FAI 2017">2017</a>] [<a
+                            href="https://despacho.uncoma.edu.ar/archivos/resol_005_2016_1004.pdf" target="_blank"
+                            title="Calendario Academico FAI 2016">2016</a>] [<a
+                            href="https://despacho.uncoma.edu.ar/archivos/resol_13_2015_1004.pdf" target="_blank"
+                            title="Calendario Academico FAI 2015">2015</a>] [<a
+                            href="https://despacho.uncoma.edu.ar/archivos/resol_01_2014_1002.pdf" target="_blank"
+                            title="Calendario Academico FAI 2014">2014</a>] [<a
+                            href="https://despacho.uncoma.edu.ar/archivos/resol_074_2012_1002.pdf" target="_blank"
+                            title="Calendario Academico FAI 2013">2013</a>] [<a
+                            href="https://despacho.uncoma.edu.ar/archivos/resol_029_2012_1002.pdf" target="_blank"
+                            title="Calendario Academico FAI 2012">2012</a>] [<a
+                            href="https://despacho.uncoma.edu.ar/archivos/resol_048_2010_1002.pdf" target="_blank"
+                            title="Calendario Academico FAI 2011">2011</a>] [<a
+                            href="https://despacho.uncoma.edu.ar/archivos/resol_019_2010_1002.pdf" target="_blank"
+                            title="Calendario Academico FAI 2010">2010</a>]</li>
+                </ul>
+            </div>
+            <!-- Fin Calendario Académico -->
+            <!-- Horarios -->
+            <div class="con-contenido">
+                <h2>Horarios</h2>
+                <ul>
+                    <li><strong>Primer cuatrimestre 2020</strong>
+                        <ul>
+                            <li>Licenciaturas y Profesorado [<a
+                                    href="/images/doc_academica/horarios/2019_horarios_1er_cuat_LIC-PROF.pdf"
+                                    target="_blank">pdf</a>].
+                            </li>
+                            <li>Tecnicaturas [<a
+                                    href="/images/doc_academica/horarios/2019_horarios_1er_cuat_Tecnicaturas.pdf"
+                                    target="_blank">pdf</a>].</li>
+                        </ul>
+                    </li>
+                    <li><strong>Segundo cuatrimestre 2019</strong>
+                        <ul>
+                            <li>Licenciatura en Ciencias de la Computación, Licenciatura en Sistemas de Información [<a
+                                    href="/images/doc_academica/horarios/2018_horarios_2do_cuat_Lic.pdf"
+                                    target="_blank">pdf</a>].</li>
+                            <li>Profesorado en Informática [<a
+                                    href="/images/doc_academica/horarios/2018_horarios_2do_cuat_PINF.pdf"
+                                    target="_blank">pdf</a>].</li>
+                            <li>Tecnicaturas [<a
+                                    href="/images/doc_academica/horarios/2018_horarios_2do_cuat_Tecnicaturas.pdf"
+                                    target="_blank">pdf</a>].</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- Fin Horarios -->
+            <!-- Turnos de exámenes -->
+            <div class="con-contenido">
+                <h2>Turnos de exámenes</h2>
+                <ul>
+                    <li><em>Turnos Ordinarios</em><br />Existen 3 turnos ordinarios, con 2 mesas de exámenes cada uno, a
+                        los cuales los alumnos pueden inscribirse por medio del <a
+                            href="http://guarani.uncoma.edu.ar/fai/G3w27/guarani3w/www/inicial.php"
+                            target="_blank">Sistema SIU GUARANI</a>:
+                        <ul>
+                            <li>Turno Ordinario de Febrero-Marzo.</li>
+                            <li>Turno Ordinario de Julio-Agosto.</li>
+                            <li>Turno Ordinario de Diciembre.</li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li><em>Turnos Extraordinarios<br /></em>Los meses de abril a junio y septiembre a
+                        noviembre, se toman exémenes con modalidad distinta, según la facultad de la que
+                        depende el dictado de las asignaturas:
+                        <ul>
+                            <li>Las asignaturas dictadas por Departamentos Académicos de las Facultades de Economía y
+                                Administración (<strong>FAEA</strong>), Ciencias de la Educación
+                                (<strong>FACE</strong>) y de Lenguas (<strong>FALE</strong>) fijan las mesas de turnos
+                                extraordinarios de acuerdo al Calendario Académico aprobado por su propio Consejo
+                                Directivo, en los meses de Abril, Mayo, Septiembre y Octubre. Para estas mesas, <u>los
+                                    estudiantes deben inscribirse ellos mismos
+                                    por medio del</u> <a
+                                    href="http://guarani.uncoma.edu.ar/fai/G3w27/guarani3w/www/inicial.php"
+                                    target="_blank">Sistema SIU GUARANI</a>.</li>
+                            <li>Las mesas de exámenes finales extraordinarios para asignaturas que dictan los
+                                Departamentos Académicos de la <strong>Facultad de Informática</strong>,
+                                <strong>se realizan a demanda</strong>, según lo estipula el Calendario Académico [<a
+                                    href="/images/institucional/calendario/CalendarioAcademico2017-ResCD098_copia.pdf"
+                                    target="_blank">Resolución CD</a>], por lo cual <u>los interesados deben contactar
+                                    directamente con
+                                    los docentes a cargo de las materias</u>.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- Fin Turnos de exámenes -->
+            <!-- Ubicación de aulas y oficinas -->
+            <div class="con-contenido">
+                <h2>Ubicación de aulas y oficinas</h2>
+                <ul>
+                    <li>Mapa de aulas (<a href="/index.php/institucional/557-mapa-de-aulas" target="_self">ver
+                            plano</a>).</li>
+                    <li>Oficinas FaI (<a href="/index.php/institucional/558-2014-02-03-16-07-10" target="_self">ver
+                            plano</a>).</li>
+                </ul>
+            </div>
+            <!-- Fin Ubicación de aulas y oficinas -->
+            <!-- Información sobre las carreras que se dictan actualmente en la facultad -->
+            <div class="con-contenido">
+                <h2>Información sobre las carreras que se dictan actualmente en la facultad</h2>
+                <ul>
+                    <li><a href="/index.php/51-academica/carreras-de-grado/14-licenciatura-en-computacion">Licenciatura
+                            en Ciencias de la Computación</a>.</li>
+                    <li><a href="/index.php/51-academica/carreras-de-grado/699-licenciatura-en-sistemas">Licenciatura en
+                            Sistemas de Información</a>.</li>
+                    <li><a href="/index.php/51-academica/carreras-fai/15-profesorado">Profesorado en Informática</a>.
+                    </li>
+                    <li><a href="/index.php/51-academica/carreras-fai/3-tecnicatura">Tecnicatura Universitaria en
+                            Desarrollo WEB</a>.</li>
+                    <li><a href="/index.php/51-academica/carreras-fai/1-tec-software-libre">Tecnicatura Universitaria en
+                            Administración de Sistemas y Software Libre</a>.</li>
+                </ul>
+            </div>
+            <!-- Fin Información sobre las carreras que se dictan actualmente en la facultad -->
+        </div>
+        <!-- Fin Contenido 1 -->
+
+        <div class="galo">
+            <div style='cursor: pointer;' class='top' onClick="muestra_oculta('contenido-2')">
+                <h1>Actividades y bienestar estudiantil</h1>
+            </div>
+        </div>
+        <!-- Contenido 2 -->
+        <div id="contenido-2">
+            <!-- Actividades -->
+            <div class="con-contenido">
+                <h2>Actividades estudiantiles</h2>
+                <ul>
+                    <li><a title="Tutorías" href="https://www.facebook.com/groups/775992309121169/" target="_blank"
+                            rel="noopener">Tutorías de pares</a></li>
+                    <li><a title="CEFaI en Facebook" href="https://www.facebook.com/CEFAIUNCO" target="_blank"
+                            rel="noopener">Centro de Estudiantes de Informática CEFaI</a></li>
+                </ul>
+            </div>
+            <!-- Fin Actividades -->
+            <!-- Becas -->
+            <div class="con-contenido">
+                <h2>Becas</h2>
+                <ul>
+                    <li><a title="Becas" href="https://www.uncoma.edu.ar/index.php/becas/" target="_blank"
+                            rel="noopener">Becas de la UNCo</a>.</li>
+                    <li><a title="Boleto Universitario" href="https://becasprogresar.educacion.gob.ar/"
+                            target="_self">Becas PROGRESAR</a>.</li>
+                </ul>
+            </div>
+            <!-- Fin Becas -->
+            <!-- Boleto Universitario -->
+            <div class="con-contenido">
+                <h2>Boleto Universitario</h2>
+                <ul>
+                    <li>Estudiantes <strong>con domicilio en la ciudad de Neuquén:</strong>
+                        <ul>
+                            <li>Para obtener la tarjeta SUBE con descuento estudiantil para universitarios, deben
+                                tramitar el certificado correspondiente en el Departamento de Alumnos y luego dirigirse
+                                a las delegaciones habilitadas a tal fin [ <a title="Boleto Universitario"
+                                    href="/index.php/57-academica/alumnos/606-boleto-estudiantil-universitario"
+                                    target="_self">Instrucciones</a> ].</li>
+                        </ul>
+                    </li>
+                    <li>Los estudiantes que se trasladan desde <strong>otras ciudades:</strong>
+                        <ul>
+                            <li>Deben solicitar en el Departamento de Alumnos el Certificado de Alumno Regular y
+                                tramitar el descuento con la empresa que realiza el trayecto.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- Fin Boleto Universitario -->
+            <!-- Áreas de Bienestar Universitario -->
+            <div class="con-contenido">
+                <h2>Áreas de Bienestar Universitario</h2>
+                <ul>
+                    <li><a title="Comedor" href="https://www.uncoma.edu.ar/index.php/comedor-universitario/"
+                            target="_blank" rel="noopener">Comedor Universitario</a>.</li>
+                    <li><a title="Deportes" href="https://www.uncoma.edu.ar/index.php/deportes/" target="_blank"
+                            rel="noopener">Deportes</a>.</li>
+                    <li><a title="Accesibilidad" href="https://www.uncoma.edu.ar/index.php/accesibilidad/"
+                            target="_blank" rel="noopener">Comisión de Accesibilidad al Medio Físico y Social</a>.</li>
+                </ul>
+            </div>
+            <!-- Fin Áreas de Bienestar Universitario -->
+            <!-- Biblioteca  y Sala de Computación -->
+            <div class="con-contenido">
+                <h2>Biblioteca y Sala de Computación</h2>
+                <ul>
+                    <li><a href="http://bibliocentral.uncoma.edu.ar/" target="_blank" rel="noopener">Biblioteca Central
+                            UNCo</a>.</li>
+                    <li><a href="http://bibliocentral.uncoma.edu.ar/?q=node/3" target="_blank" rel="noopener">Sala de
+                            Servicios Informáticos</a>.</li>
+                </ul>
+            </div>
+            <!-- Fin Biblioteca  y Sala de Computación -->
+        </div>
+
+        <div class="galo">
+            <div style='cursor: pointer;' class='top' onClick="muestra_oculta('contenido-3')">
+                <h1>Documentos para imprimir</h1>
+            </div>
+        </div>
+        <!-- Contenido 3 -->
+        <div id="contenido-3">
+            <!-- Notas -->
+            <div class="con-contenido">
+                <h2>Notas para solicitud de trámites académicos</h2>
+                <ul>
+                    <li><a href="/images/doc_academica/modelos_imprimir/Inscripcion_Carrera_alumno_con_legajo_FAI_sin_cursado_paralelo.pdf"
+                            target="_blank">Solicitud de Inscripción en carrera</a> (sólo para alumnos que tienen legajo
+                        FAI y no están cursando otra carrera de la FAI en paralelo).</li>
+                    <li><a title="Solicitud cambio de carrera"
+                            href="/images/doc_academica/modelos_imprimir/Cambio_Carrera.pdf" target="_blank">Solicitud
+                            de Cambio de carrera</a>.</li>
+                    <li><a title="Solicitud cambio plan de estudios"
+                            href="/images/doc_academica/modelos_imprimir/Cambio_Plan_Estudios.pdf"
+                            target="_blank">Solicitud de Cambio de plan de estudios</a>.</li>
+                    <li><a title="Solicitud cursado paralelo"
+                            href="/images/doc_academica/modelos_imprimir/Cursado_Paralelo.pdf" target="_blank">Solicitud
+                            de Cursado paralelo</a>.</li>
+                    <li><a title="Solicitud equivalencias"
+                            href="/images/doc_academica/modelos_imprimir/Solicitud_Equivalencias.pdf"
+                            target="_blank">Solicitud de Reconocimiento de equivalencias</a>.</li>
+                    <li><a title="Solicitud equivalencias pendientes"
+                            href="/images/doc_academica/modelos_imprimir/Equivalencias_Pendientes.pdf"
+                            target="_blank">Solicitud de Reconocimiento de equivalencias pendientes</a>.</li>
+                    <li><a title="Solicitud de plan de estudios y programas certificados"
+                            href="/images/doc_academica/modelos_imprimir/Solicitud_plan_de_estudios_y_programas_certificados.pdf"
+                            target="_blank">Solicitud de Plan de estudios y programas certificados</a>.</li>
+                </ul>
+            </div>
+            <!-- Fin Notas -->
+            <!-- Constancias y certificaciones -->
+            <div class="con-contenido">
+                <h2>Constancias y certificaciones</h2>
+                <ul>
+                    <li><a title="Solicitud cursado paralelo"
+                            href="/images/doc_academica/modelos_imprimir/Constancia-asistencia-a-examen.pdf"
+                            target="_blank">Constancia de Asistencia a examen final / parcial</a>.</li>
+                    <li><a title="Solicitud equivalencias"
+                            href="/images/doc_academica/modelos_imprimir/Constancia-asistencia-a-clase.pdf"
+                            target="_blank">Constancia de Asistencia a cursado de una materia</a>.</li>
+                    <li><a title="Solicitud equivalencias pendientes"
+                            href="/images/doc_academica/modelos_imprimir/Certificacion-horarios-cursado.pdf"
+                            target="_blank">Certificación de Horarios de cursado de materias en las que se encuentra
+                            inscripto</a>.</li>
+                </ul>
+            </div>
+            <!-- Fin Constancias y certificaciones -->
+        </div>
+        <!-- Fin Contenido 3 -->
+    </main>
+
+    <footer id="bhima">
+        <div class="footer-sidebar">
+            <div class="wrapper col-3">
+
+                <div id="first" class="widget-area">
+                    <div class="widget">
+                        <h3>Sitios de Interés</h3>
+                        <ul class="sitios-de-interes">
+                            <li><a href="https://www.uncoma.edu.ar/" target="_blank">Uncoma</a></li>
+                            <li><a href="https://pedco.uncoma.edu.ar/" target="_blank">Pedco Web</a></li>
+                            <li><a href="https://play.google.com/store/apps/details?id=ar.edu.uncoma.pedco"
+                                    target="_blank">Pedco Móvil</a></li>
+                            <li><a href="http://siufai.uncoma.edu.ar/informatica/" target="_blank">SIU Guaraní</a>
+                            </li>
+                            <li><a href="https://www.facebook.com/groups/775992309121169/" target="_blank">Tutorias</a>
+                            </li>
+                            <li><a href="https://www.facebook.com/CEFAIUNCO" target="_blank">CEFAI</a></li>
+                        </ul>
+                    </div>
+                </div><!-- #first .widget-area -->
+
+                <div id="second" class="widget-area">
+                    <div class="widget">
+                        <h3>Redes Sociales</h3>
+                        <ul class="social social-center">
+                            <li><a href="https://twitter.com/faiuncoma" class="icon-twitter" target="_blank"> </a></li>
+                            <li><a href="mailto:inesreutemann@fi.uncoma.edu.ar" class="icon-envelop" target="_blank">
+                                </a></li>
+                            <li><a href="https://www.facebook.com/FAI-Facultad-de-Inform%C3%A1tica-UNCo-185003921537235"
+                                    class="icon-facebook" target="_blank"> </a></li>
+                            <li><a href="https://t.me/fi_unco" class="icon-telegram" target="_blank"> </a></li>
+                        </ul>
+                    </div>
+                </div><!-- #second .widget-area -->
+
+                <div id="third" class="widget-area">
+                    <div class="widget widget_ti_code_banner">
+                        <h3>Emergencia</h3>
+                        <p>En caso de emergencia médica<br />
+                            dentro del Campus llamar a</p>
+                        <img src="imagen/sienLogo.jpg" alt="Vital">
+                        <h4>Teléfono: 107</h4>
+                    </div>
+                </div><!-- #third .widget-area -->
+            </div>
+        </div>
+
+        <div id="copyright">
+            <div class="wrapper">
+                <div class="grid-1">Copyright © 2020 • Sisabencómo</div>
+                <div class="grid-2">
+                    <a href="#" class="back-top"> SUBIR <i class="icon-circle-up"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,981 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* El box-sizing: border-box define cómo se calculan el ancho y el alto de un elemento: si deben incluir relleno y bordes, o no. */
+
+body {
+	background: #fff;
+	font-family: 'Oswald', sans-serif;
+	font-size: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+}
+
+.subtitulo {
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+}
+
+div {
+	display: block;
+}
+
+img {
+	border: 0;
+}
+
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a {
+	color: #0041ff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ee173d;
+}
+
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#tish {
+	margin-bottom: 20px;
+}
+
+#tish nav {
+	font-size: 0;
+	background: #1b1b1b;
+}
+
+/** El inline-block muestra un elemento como un contenedor de bloque de nivel en línea. **/
+
+#tish nav li {
+	display: inline-block;
+}
+
+#milo {
+	margin-bottom: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+#milo.wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+}
+
+#milo p {
+	margin-bottom: 5px;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: justify;
+}
+
+#milo li {
+	margin: 0 20px;
+	font-size: 14px;
+	text-align: justify;
+}
+
+/* BARRA TOP */
+
+.barra-gris {
+	background: #1b1b1b;
+}
+
+.barra-gris .wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.barra-gris li {
+	border-color: #999;
+}
+
+nav>ul>li:first-child {
+	border-left-width: 1px;
+}
+
+nav ul li {
+	height: 40px;
+	line-height: 40px;
+	border-right-width: 1px;
+}
+
+nav ul li a {
+	padding: 0 12px 0 14px;
+	text-decoration: none;
+	color: #999;
+}
+
+nav li {
+	border-style: solid;
+	border-width: 0;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+.menu-side ul li a:hover {
+	color: #ddd;
+}
+
+/* SOCIAL ICONS */
+
+.barra-gris .social {
+	float: right;
+}
+
+.social li {
+	float: left;
+	margin: 0 4px 4px 0;
+}
+
+.social li a {
+	display: block;
+	position: relative;
+	width: 32px;
+	/*height: 32px;*/
+	line-height: 40px;
+	text-align: center;
+	color: #999;
+	font-size: 18px;
+	text-decoration: none;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+.social li a:hover {
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+/* BUSQUEDA */
+
+#searchform {
+	padding: 0 15px;
+	border-style: solid;
+	background: none;
+	border-width: 0;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-color: #999;
+	float: right;
+}
+
+#searchform input, #searchform button {
+	font-size: 100%;
+	color: #999;
+	height: 40px;
+	border: none;
+	background: none;
+}
+
+#searchform input {
+	width: 100px;
+	outline: none;
+	-webkit-transition: width 0.5s ease-in-out;
+	-moz-transition: width 0.5s ease-in-out;
+	-o-transition: width 0.5s ease-in-out;
+	transition: width 0.5s ease-in-out;
+}
+
+#searchform input:focus {
+	width: 300px;
+}
+
+input#search {
+	font-family: 'Oswald', sans-serif;
+	font-size: 12px;
+	line-height: 22px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+}
+
+/* LOGO CABECERA */
+
+#paris.wrapper {
+	background-image: radial-gradient( circle 827px at 47.3% 48%, rgba(255, 255, 255, 1) 0%, rgba(153, 153, 153, 1) 90%);
+}
+
+#sanji {
+	padding: 20px;
+	text-align: center;
+	background-image: url("../imagen/pngocean1.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+img.logoFAI {
+	width: 180px;
+}
+
+/* BARRA NAVEGACION */
+
+#main-menu {
+	/*margin-bottom: 25px;*/
+	position: relative;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+
+#main-menu>ul {
+	text-align: center;
+}
+
+#main-menu ul li {
+	font-size: 18px;
+}
+
+#main-menu ul li:hover {
+	background-color: #005393;
+}
+
+#main-menu ul li a:hover {
+	color: #fff;
+}
+
+/** Items del menu **/
+
+#main-menu ul li {
+	position: relative;
+}
+
+/** Menu desplegable **/
+
+#main-menu ul ul {
+	display: none;
+	position: absolute;
+	background: #1b1b1b;
+	text-align: left;
+}
+
+/** Items del menu desplegable **/
+
+#main-menu ul ul li {
+	float: none;
+	width: 173px;
+	border: none;
+	letter-spacing: normal;
+	text-transform: none;
+}
+
+#main-menu>ul>li>ul>li:first-child {
+	border-top: 1px solid #000;
+}
+
+/** Enlaces de los items del menu desplegable **/
+
+#main-menu ul ul a {
+	padding: 0 11px 0 14px;
+}
+
+/** Items del menu desplegable al pasar el ratón **/
+
+#main-menu ul li:hover>ul {
+	display: block;
+}
+
+/** Mantengo el boton como si lo estuviera seleccionando **/
+
+ul>li#focus {
+	background-color: #005393;
+}
+
+li#focus>a {
+	color: #fff;
+}
+
+/* MAIN */
+
+h2.titulo {
+	font-size: 2em;
+	line-height: 1em;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 25px auto;
+	color: #0041ff;
+	border-bottom: 2px solid #0041ff;
+	width: 90%;
+}
+
+/** SITIOS DE INTERES **/
+
+.box-top {
+	width: 100%;
+	margin: 20px auto;
+	max-width: 300px;
+	max-height: 250px;
+	box-shadow: 0 0 10px 2px rgba(144, 149, 161, 0.2);
+	background-color: #eee;
+}
+
+.box-top .top {
+	padding: 15px;
+	background-image: url(../imagen/pngocean2.png);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.box-top .top:hover {
+	background-image: url(../imagen/pngocean3.png);
+}
+
+.box-top .top h2 {
+	margin: 0;
+	padding: 0;
+	color: #000;
+	text-align: center;
+}
+
+.box-top .top img {
+	height: 90px;
+	display: block;
+	margin: 10px auto;
+}
+
+/** NOTICIAS **/
+
+.box {
+	width: 100%;
+	margin: 20px auto;
+	box-shadow: 0 0 10px 2px rgba(144, 149, 161, 0.2);
+	border-top: 12px solid #005393;
+	border-radius: 5px;
+}
+
+.box ul {
+	list-style-type: initial;
+}
+
+.box h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	color: #005393;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+}
+
+.box-header {
+	padding: 20px 20px 5px;
+}
+
+.box-ver-mas {
+	display: block;
+}
+
+.ver-mas {
+	padding: 0 15px 15px;
+}
+
+.ver-mas2 {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.ver-mas2 a {
+	color: #fff;
+	padding: 8px 12px;
+	font-size: 12px;
+	border-radius: 5px;
+	background-color: #005393;
+}
+
+/* PAGE SECTION HISTORIA */
+
+#simbad {
+	background: #eee;
+	background-image: url("../imagen/prueba2.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+#simbad .wrapper {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+div.historia {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	text-align: justify;
+	margin: 0 auto 35px;
+	padding: 15px;
+}
+
+.historia p {
+	line-height: 20px;
+}
+
+/* FOOTER */
+
+#bhima {
+	color: #999;
+	background: #242628;
+	text-align: center;
+}
+
+#bhima .wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.sitios-de-interes a {
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	color: #999;
+}
+
+.sitios-de-interes a:hover {
+	color: #07beff;
+}
+
+.col-3 {
+	overflow: hidden;
+}
+
+#first {
+	/*width: 49%;*/
+	min-height: 230px;
+	border-style: dotted;
+	border-width: 0;
+	border-right-width: 1px;
+	border-color: #585b61;
+}
+
+/** El id #second no lo utilizo **/
+
+#third {
+	min-height: 230px;
+	border-style: dotted;
+	border-width: 0;
+	border-left-width: 1px;
+	border-color: #585b61;
+}
+
+.col-3 {
+	display: flex;
+}
+
+.col-3 .widget-area {
+	width: 33%;
+	float: left;
+}
+
+.footer-sidebar .widget {
+	padding: 30px 0;
+}
+
+.widget h3 {
+	margin-bottom: 15px;
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: #0da4fc !important;
+}
+
+/** Esto afecta solo a la tercer columna del footer **/
+
+.widget_ti_code_banner h4 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+
+.widget_ti_code_banner a {
+	margin-bottom: 30px;
+}
+
+.widget_ti_code_banner p {
+	font-size: 13px;
+	font-family: 'Roboto', sans-serif;
+	margin: 20px auto 0px;
+}
+
+.widget_ti_code_banner img {
+	width: 205px;
+	height: auto;
+	display: block;
+	margin: 10px auto;
+}
+
+/** REDES SOCIALES **/
+
+.social.social-center li {
+	float: none;
+	display: inline-block;
+}
+
+/* COPYRIGHT */
+
+#copyright {
+	background-color: rgba(0, 0, 0, 0.1);
+	padding: 15px 0;
+	color: #999;
+	font-size: 12px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	letter-spacing: 0.2em;
+	text-align: left;
+}
+
+#copyright a {
+	color: #999;
+}
+
+.grid-1 {
+	display: inline;
+}
+
+.grid-2 {
+	float: right;
+}
+
+/* PAGINAS HIJAS - NO INDEX */
+
+.ciro {
+	width: 100%;
+	margin: 10px auto;
+	box-shadow: 0 0 10px 2px rgba(144, 149, 161, 0.2);
+	background-color: #eee;
+}
+
+.ciro .top {
+	padding: 5px;
+	background-image: url(../imagen/pngocean7.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.ciro .top:hover {
+	background-image: url(../imagen/pngocean8.png);
+	background-position: right;
+}
+
+.ciro .top h2 {
+	text-align: center;
+}
+
+.ciro .top h2>a {
+	color: #005393;
+	text-transform: uppercase;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.ciro .top h2>a:hover {
+	font-weight: 500;
+	color: #0041ff;
+	letter-spacing: 0.2em;
+}
+
+/** CONTENIDO OCULTO **/
+
+.galo {
+	width: 100%;
+	margin: 10px auto;
+	box-shadow: 0 0 10px 2px rgba(144, 149, 161, 0.2);
+	background-color: #eee;
+}
+
+.galo .top {
+	padding: 5px;
+	text-align: center;
+}
+
+#contenido-1, #contenido-2, #contenido-3 {
+	display: none;
+}
+
+.con-contenido {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.con-contenido ul {
+	list-style-type: initial;
+	margin-bottom: 10px;
+}
+
+.con-contenido ul li ul li {
+	list-style-type: circle;
+}
+
+.con-contenido h2 {
+	margin-bottom: 10px;
+	line-height: 28px;
+}
+
+.con-contenido h3 {
+	margin-bottom: 10px;
+	line-height: 20px;
+	color: #0041ff;
+}
+
+.con-contenido a.icon-envelop {
+	color: #000;
+}
+
+/* NOVEDADES */
+
+#shark {
+	margin-bottom: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+#shark.wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+}
+
+.box p {
+	margin-bottom: 5px;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: justify;
+}
+
+#shark li {
+	margin: 0 20px;
+	font-size: 14px;
+	text-align: justify;
+}
+
+.box-footer {
+	display: inline-flex;
+}
+
+#shark .imagenNoticias {
+	text-align: center;
+}
+
+#shark p.imagenNoticias>img {
+	width: 50%;
+}
+
+.categoriaPublicacion {
+	margin-left: 5px;
+	padding: 2px;
+	display: inline;
+	color: #ccc;
+}
+
+#shark .categoria {
+	margin-left: 5px;
+	padding: 2px 5px 0;
+	background-color: #005393;
+	border-radius: 4px;
+}
+
+.categoria a {
+	font-size: 13px;
+	font-weight: 500;
+	color: #fff;
+}
+
+.fechaPublicacion {
+	margin-right: 5px;
+	padding: 2px;
+	font-style: italic;
+	float: right;
+	color: #ccc;
+}
+
+hr.saltoLinea {
+	margin: 20px 0 8px;
+	border-top: 1px solid #ccc;
+}
+
+/** PAGINADO **/
+
+#paginado {
+	margin-bottom: 40px;
+}
+
+.pagination ul {
+	padding: 10px 0;
+	text-align: center;
+	background-color: #eaeaea;
+	border-top: 2px solid #005393;
+	border-bottom: 2px solid #005393;
+}
+
+.pagination li {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	display: inline-block;
+}
+
+.page-numbers .current {
+	background-color: #005393;
+	color: #fff;
+}
+
+.pagination li a, .pagination li span {
+	color: #242628;
+	font-size: 18px;
+	padding: 5px 10px;
+}
+
+.pagination li a:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+/* CONTACTOS */
+
+/** MAIN **/
+
+#esmo {
+	margin-bottom: 40px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+#esmo.wrapper {
+	width: 80%;
+}
+
+#esmo h3 {
+	color: #005393;
+	font-size: 24px;
+}
+
+#esmo p {
+	margin-bottom: 5px;
+	line-height: 20px;
+}
+
+#esmo li {
+	margin: 0 20px;
+	font-size: 14px;
+	text-align: justify;
+}
+
+p#mapa {
+	text-align: center;
+}
+
+/** TABLA **/
+
+table {
+	margin: 0 auto;
+}
+
+table#contactos {
+	border-collapse: collapse;
+	width: 70%;
+}
+
+table.autoridades {
+	width: 90%;
+}
+
+caption {
+	background-color: #242628;
+	padding: 8px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+th, td {
+	text-align: left;
+	padding: 8px;
+}
+
+/** odd y even son palabras clave que se pueden usar para unir elementos secundarios cuyo índice es impar o par **/
+
+tr:nth-child(odd) {
+	background-color: #f2f2f2
+}
+
+th {
+	background-color: #005393;
+	color: white;
+}
+
+/** Le cambio el tamaño y el color al icono de correo **/
+
+.tam-icono a {
+	font-size: 24px;
+	color: #000;
+}
+
+/* FORMULARIO */
+
+#aoshi {
+	background-color: #17212B;
+}
+
+#content {
+	width: 45%;
+	margin: 25px auto;
+	background-color: #1b1b1b;
+	color: #ddd;
+	border: 2px solid #585b61;
+	box-shadow: 0px 0px 15px 0px rgba(22, 31, 38, 0.85), 0 0 8px 0 rgba(161, 174, 208, 0.55);
+}
+
+#content span {
+	color: #0da4fc;
+	font-size: 12px;
+}
+
+#content div.aviso {
+	margin-top: 10px;
+	padding-left: 5px;
+	color: #fff;
+	font-size: 12px;
+	font-style: italic;
+}
+
+#headerForm img {
+	height: 200px;
+	display: block;
+	margin: 0 auto;
+	padding: 20px 10px 10px;
+}
+
+#headerForm h1 {
+	text-align: center;
+}
+
+#headerForm h2 {
+	font-size: 16px;
+	text-align: center;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+}
+
+#formulario {
+	margin: 10px auto 0;
+	padding: 25px;
+	color: #ffc063;
+	font-family: 'Roboto', sans-serif;
+	line-height: 30px;
+}
+
+#formulario input, #formulario select {
+	width: 100%;
+	border: 2px solid #585b61;
+	background: rgba(144, 149, 161, 0.2);
+	margin: 0 0 5px;
+	padding: 10px;
+	color: #ddd;
+	outline: none;
+}
+
+#formulario input:hover, #formulario select:hover {
+	background: rgba(93, 96, 104, 0.2);
+}
+
+#formulario input:focus, #formulario select:focus {
+	border: 2px solid #ffc063;
+	background: rgba(73, 75, 82, 0.2);
+}
+
+#formulario option {
+	background: rgba(54, 89, 172, 0.2);
+	color: #000;
+}
+
+input#buttonForm {
+	background-color: #005393;
+	margin-top: 15px;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	border: none;
+}
+
+input#buttonForm:hover {
+	background-color: #0c69b1;
+	color: #fff;
+}
+
+input#buttonForm:active {
+	background-color: #0da4fc;
+	border: none;
+}
+
+input#buttonForm:focus {
+	border: none;
+}
+
+div#telMovil, div#telFijo {
+	display: none;
+}
+
+div#ok {
+	width: 60%;
+	margin: 50px auto;
+	padding: 20px;
+	box-shadow: 0 0 10px 2px rgba(144, 149, 161, 0.2);
+	background-color: #eee;
+	border-radius: 4px;
+}
+
+#ok p {
+	font-size: 20px;
+	text-align: center;
+}
+
+#ok h1 {
+	text-align: center;
+}
+
+#milo p.mirtha {
+	font-size: 12px;
+	text-align: right;
+}
+
+#milo p.frasee {
+	font-size: 15px;
+}
+
+select#TipoTel {
+	padding: 9px 0 9px 5px;
+}
+
+select#Año, select#Mes, select#Dia {
+	width: 12%;
+	margin-right: 5px;
+	padding: 4px 0 4px;
+}
+
+#FechaForm label {
+	color: #ddd;
+	font-size: 14px;
+}
