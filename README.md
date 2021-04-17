@@ -7,6 +7,7 @@ Esta página fue creada para el trabajo final de Programación Estática y Labor
 - [Descripción](#descripción)
   - [Dominio](#dominio)
   - [Links](#links)
+  - [Formulario](#formulario)
 - [Mi Procedimiento](#mi-procedimiento)
   - [Construido con](#construido-con)
   - [Desarrollo continuo](#desarrollo-continuo)
@@ -21,6 +22,10 @@ Sitio web de la Facultad de Informática de la Universidad del Comahue donde pod
 
 - [URL del sitio en vivo](https://blackpachamame.github.io/faiweb-1/)
 - [URL del sitio original](https://faiweb.uncoma.edu.ar/)
+
+### Formulario
+
+Una de las consigas del trabajo final consistía en crear un formulario con sus respectivas validaciones. Al llenar el formulario y enviar los datos, la página debía informarte de alguna forma, que los datos fueron enviados correctamente. Solo se puede acceder a dicho formulario desde la página de inicio, dando click al cuadro de **Correo Institucional**.
 
 ## Mi Procedimiento
 
