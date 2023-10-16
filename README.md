@@ -21,7 +21,7 @@ Sitio web de la Facultad de Informática de la Universidad del Comahue donde pod
 ### Links
 
 - [URL del sitio en vivo](https://blackpachamame.github.io/faiweb-1/)
-- [URL del sitio original](https://faiweb.uncoma.edu.ar/)
+- [URL del sitio original](https://faiweb.uncoma.edu.ar/) (actualizado en 2022)
 
 ### Formulario
 
